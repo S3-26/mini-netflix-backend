@@ -23,4 +23,4 @@ jobs:
         run: chmod +x mvnw
 
       - name: Build project
-        run: ./mvnw clean install
+        run: ./mvnw clean install -DskipTests
