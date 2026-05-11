@@ -83,6 +83,7 @@ public List<Map<String, Object>> getContinue(@AuthenticationPrincipal User user)
 
             Map<String, Object> map = new HashMap<>();
             map.put("fileName", v.getFileName());
+            map.put("thumbnailPath", v.getThumbnailPath());
             map.put("title", v.getTitle());
             map.put("progress", h.getProgress());
             map.put("duration", h.getDuration());
